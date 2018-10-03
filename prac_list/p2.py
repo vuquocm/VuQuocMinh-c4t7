@@ -47,16 +47,16 @@
 # #or
 # print(sum(numbers))
 
-# i = input("enter a list of numbers, seperated by " "")
-# numbers = i.split(",")
-# print(numbers)
-# numbers = list(map(int, numbers))
-# x = 0
-# for x in range(len(numbers)):
+s = input("enter a list of numbers, seperated by " "")
+numbers = s.split(",")
+print(numbers)
+numbers = list(map(int, numbers))
+x = 0
+for x in range(len(numbers)):
     
-#     if numbers[x] / 2 == numbers[x] // 2:
-#         a = numbers[x] 
-#         print(a, end = (","))
+    if numbers[x] / 2 == numbers[x] // 2:
+        a = numbers[x] 
+        print(a, end = (","))
 
 
 
